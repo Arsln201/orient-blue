@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Orient Blue FZ-L.L.C.
+
+**Corporate Website**
+
+A modern, responsive corporate website for **Orient Blue FZ-L.L.C.**, based in Ras Al Khaimah, United Arab Emirates.
+
+The website presents the company's business profile, products, services, solutions, industries, projects, and contact information through a professional blue-and-white visual identity.
+
+## Features
+
+- Responsive layouts for desktop, tablet, and mobile
+- Company information and capabilities
+- Products and product categories
+- Services, solutions, and industries
+- Projects and insights
+- Contact page and navigation
+- Optimized production build
+- Search-engine metadata and website structure
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Node.js
 
 ## Getting Started
 
-First, run the development server:
+### Requirements
+
+Install Node.js and npm before starting.
+
+### Installation
+
+Clone the repository and enter the project directory:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd orient-blue
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+### Development
+
+Start the local development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Check the production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To run the production build locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000).
 
-## Deploy on Vercel
+## Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```text
+orient-blue/
+├── public/
+│   └── products/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── data/
+│   ├── lib/
+│   └── styles/
+├── next.config.ts
+├── package.json
+└── README.md
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+Deployment depends on the hosting provider and its support for the project's Next.js features and Node.js runtime.
+
+Before deploying, verify the hosting plan, environment variables, and production configuration.
+
+## Company
+
+**Orient Blue FZ-L.L.C.**  
+Compass Building, Al Hulaila Industrial Zone-FZ  
+Ras Al Khaimah, United Arab Emirates
+
+---
+
+*Developed for Orient Blue FZ-L.L.C.*

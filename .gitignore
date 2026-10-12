@@ -39,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local backups
+/backups/
+
+# Backup and temporary files
+*.bak
+*.backup
+*.before-*
+*.before_*
+
+# Never commit environment files
+.env
+.env.*
+!.env.example
