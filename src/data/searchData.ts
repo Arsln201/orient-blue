@@ -30,7 +30,7 @@ export const searchData: SearchItem[] = [
       "systems",
       "equipment",
     ],
-    href: "#",
+    href: "/products",
     featured: true,
   },
   {
@@ -46,7 +46,7 @@ export const searchData: SearchItem[] = [
       "energy",
       "equipment",
     ],
-    href: "#",
+    href: "/products",
     featured: true,
   },
   {
@@ -62,7 +62,7 @@ export const searchData: SearchItem[] = [
       "industrial",
       "automation",
     ],
-    href: "#",
+    href: "/products",
   },
   {
     id: "product-motor-control",
@@ -77,7 +77,7 @@ export const searchData: SearchItem[] = [
       "automation",
       "industrial",
     ],
-    href: "#",
+    href: "/products",
   },
   {
     id: "solution-automation",
@@ -92,7 +92,7 @@ export const searchData: SearchItem[] = [
       "control",
       "systems",
     ],
-    href: "#",
+    href: "/solutions",
     featured: true,
   },
   {
@@ -108,7 +108,7 @@ export const searchData: SearchItem[] = [
       "power",
       "monitoring",
     ],
-    href: "#",
+    href: "/solutions",
   },
   {
     id: "solution-infrastructure",
@@ -122,7 +122,7 @@ export const searchData: SearchItem[] = [
       "systems",
       "industrial",
     ],
-    href: "#",
+    href: "/solutions",
   },
   {
     id: "service-technical",
@@ -136,7 +136,7 @@ export const searchData: SearchItem[] = [
       "engineering",
       "maintenance",
     ],
-    href: "#",
+    href: "/services",
   },
   {
     id: "service-support",
@@ -150,7 +150,7 @@ export const searchData: SearchItem[] = [
       "maintenance",
       "products",
     ],
-    href: "#",
+    href: "/contact",
   },
   {
     id: "industry-industrial",
@@ -164,7 +164,7 @@ export const searchData: SearchItem[] = [
       "factory",
       "industrial",
     ],
-    href: "#",
+    href: "/industries",
   },
   {
     id: "industry-energy",
@@ -178,7 +178,7 @@ export const searchData: SearchItem[] = [
       "power",
       "infrastructure",
     ],
-    href: "#",
+    href: "/industries",
   },
   {
     id: "industry-infrastructure",
@@ -192,7 +192,7 @@ export const searchData: SearchItem[] = [
       "engineering",
       "projects",
     ],
-    href: "#",
+    href: "/industries",
   },
   {
     id: "project-industrial",
@@ -206,7 +206,7 @@ export const searchData: SearchItem[] = [
       "systems",
       "engineering",
     ],
-    href: "#",
+    href: "/projects",
   },
   {
     id: "project-infrastructure",
@@ -220,7 +220,7 @@ export const searchData: SearchItem[] = [
       "technology",
       "systems",
     ],
-    href: "#",
+    href: "/projects",
   },
   {
     id: "insight-automation",
@@ -234,7 +234,7 @@ export const searchData: SearchItem[] = [
       "technology",
       "industry",
     ],
-    href: "#",
+    href: "/insights",
   },
   {
     id: "insight-efficiency",
@@ -248,6 +248,6 @@ export const searchData: SearchItem[] = [
       "operations",
       "technology",
     ],
-    href: "#",
+    href: "/insights",
   },
 ];

@@ -99,10 +99,22 @@ export default function Footer() {
         </div>
 
         <div className="ob-footer-bottom">
-          <span>ORIENT BLUE FZ-L.L.C.</span>
-          <span>ENGINEERED FOR WHAT&apos;S NEXT.</span>
-        </div>
-      </div>
+          <span className="ob-footer-copyright">
+             © 2026 ORIENT BLUE FZ-L.L.C. ALL RIGHTS RESERVED.
+          </span>
+          <span className="ob-footer-credit">
+    Developed &amp; Maintained by{" "}
+    <a
+      href="https://mirza-arsalan.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="MARS — visit developer portfolio"
+    >
+      MARS
+    </a>
+  </span>
+</div>
+</div>
     </footer>
   );
 }

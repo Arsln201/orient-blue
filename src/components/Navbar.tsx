@@ -169,15 +169,15 @@ useEffect(() => {
                 onMouseEnter={() => setActiveMenu(item.label)}
               >
                 <Link
-                  href={getNavigationHref(item.label)}
-                  type="button"
-                  className={`ob-nav-link ${
-                    activeMenu === item.label
-                      ? "ob-nav-link-active"
-                      : ""
-                  }`}
-                  aria-expanded={activeMenu === item.label}
-                                >
+  href={getNavigationHref(item.label)}
+  className={`ob-nav-link ${
+    activeMenu === item.label
+      ? "ob-nav-link-active"
+      : ""
+  }`}
+  aria-expanded={activeMenu === item.label}
+  onClick={() => setActiveMenu(null)}
+>
                   {item.label}
                   <ChevronDown
                     size={13}
