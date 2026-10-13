@@ -14230,7 +14230,7 @@ img {
   .ob-project-solution-copy {
     margin-top: 55px;
   }
-
+  
   .ob-project-solution-copy p {
     font-size: 1.3rem;
   }
@@ -20391,5 +20391,281 @@ span,
     width: 100%;
     text-align: center;
     flex-shrink: 1;
+  }
+}
+
+
+/* ==================================================
+   ORIENT BLUE — FINAL CONTACT & FOOTER OVERRIDE
+   Al Wadi-inspired layout, Orient Blue colours
+   ================================================== */
+
+.ob-footer .ob-footer-grid {
+  display: grid !important;
+  grid-template-columns: 1.05fr 0.8fr 1.1fr 1.25fr !important;
+  align-items: start !important;
+  gap: clamp(22px, 3vw, 46px) !important;
+}
+
+/* Contact column */
+
+.ob-footer .ob-footer-contact {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 20px !important;
+  min-width: 0 !important;
+}
+
+.ob-footer .ob-footer-contact > .ob-footer-label {
+  margin: 0 !important;
+}
+
+.ob-footer .ob-footer-contact-item {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  color: #79c9ff !important;
+}
+
+.ob-footer .ob-footer-contact-item > svg {
+  flex: 0 0 16px !important;
+  margin-top: 2px !important;
+  color: #149bff !important;
+}
+
+.ob-footer .ob-footer-contact-item > div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 6px !important;
+  min-width: 0 !important;
+}
+
+.ob-footer .ob-footer-contact-heading {
+  color: #79c9ff !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.13em !important;
+}
+
+.ob-footer .ob-footer-phone,
+.ob-footer .ob-footer-email {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+  max-width: 100% !important;
+  color: #f5f9fd !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+  text-decoration: none !important;
+  overflow-wrap: anywhere !important;
+  transition: color 180ms ease !important;
+}
+
+.ob-footer .ob-footer-phone svg,
+.ob-footer .ob-footer-email svg {
+  flex-shrink: 0 !important;
+  color: #149bff !important;
+}
+
+.ob-footer .ob-footer-phone:hover,
+.ob-footer .ob-footer-email:hover {
+  color: #149bff !important;
+}
+
+.ob-footer .ob-footer-availability {
+  color: #c5d7e8 !important;
+  font-size: 13px !important;
+  line-height: 1.65 !important;
+}
+
+/* White enquiry button with circular blue arrow */
+
+.ob-footer a.ob-contact-enquiry-button {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  width: 214px !important;
+  min-height: 54px !important;
+  margin: 2px 0 0 !important;
+  padding: 6px 7px 6px 20px !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 8px !important;
+  background: #ffffff !important;
+  color: #0868b8 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12) !important;
+  transition: background 180ms ease, transform 180ms ease !important;
+}
+
+.ob-footer a.ob-contact-enquiry-button:hover {
+  background: #dceeff !important;
+  color: #073f78 !important;
+  transform: translateY(-2px) !important;
+}
+
+.ob-footer .ob-contact-enquiry-icon {
+  display: inline-flex !important;
+  flex: 0 0 38px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 38px !important;
+  height: 38px !important;
+  border: 1px solid #149bff !important;
+  border-radius: 50% !important;
+  background: #ffffff !important;
+  color: #0868b8 !important;
+}
+
+.ob-footer .ob-contact-enquiry-icon svg {
+  width: 18px !important;
+  height: 18px !important;
+  color: #0868b8 !important;
+  stroke: currentColor !important;
+}
+
+/* Brand closing statement */
+
+.ob-footer .ob-footer-tagline {
+  display: grid !important;
+  grid-template-columns: minmax(180px, 0.8fr) minmax(0, 2fr) !important;
+  align-items: center !important;
+  gap: 24px !important;
+  margin-top: 34px !important;
+  padding: 23px 0 !important;
+  border-top: 1px solid rgba(121, 201, 255, 0.28) !important;
+  border-bottom: 1px solid rgba(121, 201, 255, 0.28) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  overflow: visible !important;
+}
+
+.ob-footer .ob-footer-tagline::before {
+  content: none !important;
+  display: none !important;
+}
+
+.ob-footer .ob-footer-tagline-label {
+  color: #79c9ff !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.12em !important;
+  line-height: 1.7 !important;
+  text-transform: uppercase !important;
+}
+
+.ob-footer .ob-footer-tagline-statements {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  align-items: center !important;
+  gap: 22px !important;
+}
+
+.ob-footer .ob-footer-tagline-statements p {
+  margin: 0 !important;
+  color: #f5f9fd !important;
+  font-size: clamp(13px, 1.2vw, 16px) !important;
+  font-weight: 500 !important;
+  line-height: 1.65 !important;
+}
+
+.ob-footer .ob-footer-tagline-statements p + p {
+  padding: 0 0 0 22px !important;
+  border: 0 !important;
+  border-left: 1px solid rgba(121, 201, 255, 0.35) !important;
+}
+
+/* Copyright and MARS credit */
+
+.ob-footer .ob-footer-bottom {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  flex-wrap: wrap !important;
+  gap: 12px 24px !important;
+  padding-top: 22px !important;
+}
+
+.ob-footer .ob-footer-copyright,
+.ob-footer .ob-footer-credit {
+  font-size: 10px !important;
+  line-height: 1.7 !important;
+}
+
+/* Tablet */
+
+@media (max-width: 1000px) {
+  .ob-footer .ob-footer-grid {
+    grid-template-columns: 1fr 1fr !important;
+    column-gap: 30px !important;
+    row-gap: 34px !important;
+  }
+
+  .ob-footer .ob-footer-tagline {
+    grid-template-columns: 1fr 2fr !important;
+  }
+}
+
+/* Mobile — compact, readable, no oversized blocks */
+
+@media (max-width: 600px) {
+  .ob-footer .ob-footer-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 30px !important;
+  }
+
+  .ob-footer .ob-footer-contact {
+    gap: 20px !important;
+  }
+
+  .ob-footer .ob-footer-tagline {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 14px !important;
+    margin-top: 26px !important;
+    padding: 20px 0 !important;
+  }
+
+  .ob-footer .ob-footer-tagline-statements {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  .ob-footer .ob-footer-tagline-statements p {
+    font-size: 14px !important;
+  }
+
+  .ob-footer .ob-footer-tagline-statements p + p {
+    padding: 12px 0 0 !important;
+    border-top: 1px solid rgba(121, 201, 255, 0.28) !important;
+    border-left: 0 !important;
+  }
+
+  .ob-footer .ob-footer-bottom {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    text-align: center !important;
+  }
+
+  .ob-footer .ob-footer-copyright,
+  .ob-footer .ob-footer-credit {
+    font-size: 9px !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ob-footer a.ob-contact-enquiry-button,
+  .ob-footer .ob-footer-phone,
+  .ob-footer .ob-footer-email {
+    transition: none !important;
   }
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Mail, Phone, MapPin, Clock3 } from "lucide-react";
 import MagneticButton from "./MagneticButton";
 
 const footerLinks = [
@@ -89,32 +89,87 @@ export default function Footer() {
           </div>
 
           <div className="ob-footer-contact">
-            <span className="ob-footer-label">LANDLINE</span>
+            <span className="ob-footer-label">CONTACT</span>
 
-            <a href="tel:+96626482836" className="ob-footer-phone">
-              +966 26482836
-              <ArrowUpRight size={17} strokeWidth={1.5} />
-            </a>
+            <div className="ob-footer-contact-item">
+              <Phone size={16} aria-hidden="true" />
+              <div>
+                <span className="ob-footer-contact-heading">LANDLINE</span>
+                <a href="tel:+96626482836" className="ob-footer-phone">
+                  +966 26482836
+                  <ArrowUpRight size={15} strokeWidth={1.5} />
+                </a>
+              </div>
+            </div>
+
+            <div className="ob-footer-contact-item">
+              <Mail size={16} aria-hidden="true" />
+              <div>
+                <span className="ob-footer-contact-heading">EMAIL</span>
+                <a
+                  href="mailto:hr@orientbluefz.com"
+                  className="ob-footer-email"
+                >
+                  hr@orientbluefz.com
+                  <ArrowUpRight size={15} strokeWidth={1.5} />
+                </a>
+              </div>
+            </div>
+
+            <div className="ob-footer-contact-item">
+              <Clock3 size={16} aria-hidden="true" />
+              <div>
+                <span className="ob-footer-contact-heading">
+                  AVAILABILITY
+                </span>
+                <span className="ob-footer-availability">
+                  Open for enquiries
+                </span>
+              </div>
+            </div>
+
+<a
+  href="mailto:hr@orientbluefz.com?subject=Orient%20Blue%20Enquiry"
+  className="ob-contact-enquiry-button"
+>
+  <span>Send an enquiry</span>
+  <span className="ob-contact-enquiry-icon">
+    <ArrowUpRight size={18} strokeWidth={1.8} />
+  </span>
+</a>
+
+          </div>
+        </div>
+
+        <div className="ob-footer-tagline">
+          <div className="ob-footer-tagline-label">
+            Technical Service • UAE &amp; KSA
+          </div>
+
+          <div className="ob-footer-tagline-statements">
+            <p>Precision in every detail.</p>
+            <p>Excellence in every connection.</p>
           </div>
         </div>
 
         <div className="ob-footer-bottom">
           <span className="ob-footer-copyright">
-             © 2026 ORIENT BLUE FZ-L.L.C. ALL RIGHTS RESERVED.
+            © 2026 ORIENT BLUE FZ-L.L.C. ALL RIGHTS RESERVED.
           </span>
+
           <span className="ob-footer-credit">
-    Developed &amp; Maintained by{" "}
-    <a
-      href="https://mirza-arsalan.vercel.app"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="MARS — visit developer portfolio"
-    >
-      MARS
-    </a>
-  </span>
-</div>
-</div>
+            Developed &amp; Maintained by{" "}
+            <a
+              href="https://mirza-arsalan.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="MARS — visit developer portfolio"
+            >
+              MARS
+            </a>
+          </span>
+        </div>
+      </div>
     </footer>
   );
 }
